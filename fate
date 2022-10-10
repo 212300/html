@@ -1,0 +1,64 @@
+<html>
+<head>
+<style>
+#header {
+    background-color:#F0F8FF;
+    color:black;
+    text-align:center;
+    padding:5px;
+
+#section {
+    width:350px;
+    float:left;
+    text-align:center;
+    padding:10px;	 	 
+}
+</style>
+<title> 缘分一生爱 </title>
+
+</head>
+
+<body background="fate.webp">
+
+<div id="header">
+<h1> 缘分一生爱 </h1>
+</div>
+
+<p align="center">
+<audio autoplay="autoplay"loop="loop"controls="controls">
+        <source src="Biscuits - i hate u i love u.mp3"
+               type="audio/mp3">
+</audio>
+</p>
+
+<div id="section">
+
+<h1 style="text-align:center" >
+你和ta是死党还是挚友？
+</h1>
+<h1 style="text-align:center">
+你和ta的缘分？
+</h1>
+<h1 style="text-align:center">
+你和ta是否终成眷属？
+</h1>
+<h1 style="text-align:center">
+快来缘分一生爱测测吧！
+</h1>
+<h1 style="text-align:center">
+快输入相关信息吧！
+</h1>
+<form action="fatefate.php" style="text-align:center" >
+请输入你的名字：
+<input type='text' name="yourname" />
+</br>
+请输入ta的名字：
+<input type='text' name="hishername" />
+</br>
+<input type="submit" value="开始计算你们的缘分"/>
+</form>
+</div>
+
+
+</body>
+</html>
